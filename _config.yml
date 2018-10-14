@@ -1,0 +1,56 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore,archive]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: rouge
+baseurl
+
+
+### content configuration ###
+title: AoN Brainhack Warsaw 2017
+keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, modelling, simulations, open science
+description: Bring your ideas on open, reproducible neuroscience related projects to AoN Brainhack Warsaw 2017! The call for proposals for is now open! Brainhack Warsaw is an official satellite event for Aspects of Neuroscience conference.
+#source_link:
+#favicon: favicon.png?
+url: https://brainhackwarsaw.github.io
+baseurl: /brainhackwarsaw
+#touch_icon:
+google_analytics_key: UA-104097157-1
+twitter_description: The call for proposals for the AoN Brainhack Warsaw 2017 is now open!
+
+
+### template colors, used site-wide via css ###
+
+colors:
+
+  aongreen: '#1C7439'
+  white:     '#eee'
+### flat  design colors from https://www.materialui.co/flatuicolors
+  turquoise: '#1abc9c'
+  emerald   : '#2ecc71'
+  peteriver : '#3498db'
+  amethyst  : '#9b59b6'
+  wetasphalt : '#34495e'
+  red: '#F44336'
+
+  cyan: '#1ba1e2'
+  cobalt: '#0050ef'
+### choose matarial design colors from http://materialuicolors.co/
+
+
+kramdown:
+  auto_ids:  false
+
+sass:
+  sass_dir: stylesheets/_sass/
+
+theme: jekyll-theme-merlot
